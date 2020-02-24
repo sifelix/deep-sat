@@ -1,2 +1,2 @@
 # deep-satellite
-Boat detection from satellite images
+Ships detection from satellite images.
