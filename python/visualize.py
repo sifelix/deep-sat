@@ -39,7 +39,8 @@ def add_ee_layer(self, ee_image_object, vis_params, name):
 folium.Map.add_ee_layer = add_ee_layer
 
 # + pycharm={"name": "#%% Set visualization parameters\n", "is_executing": true}
-# %%capture # Do not display cell output
+# %%capture
+# Capture cell output so as not to display it
 vis_params = {
   'min': 0,
   'max': 4000,
@@ -59,4 +60,3 @@ Image(url=sat_image.updateMask(sat_image.gt(0))
 
 # + pycharm={"name": "#%% Display map\n", "is_executing": false}
 my_map
-
