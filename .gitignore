@@ -1,2 +1,6 @@
 # IDE
 .idea/
+
+# IPython Notebook
+*.ipynb
+.ipynb_checkpoints
